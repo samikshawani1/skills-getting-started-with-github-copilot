@@ -97,6 +97,10 @@ section h3 {
   margin: 0;
 }
 
+.participants-list li {
+  list-style: none;
+}
+
 .participant-item {
   display: flex;
   align-items: center;
@@ -107,6 +111,7 @@ section h3 {
   background: #edf4ff;
   color: #234a77;
   font-size: 0.95rem;
+  list-style: none;
 }
 
 .participant-item.empty {
